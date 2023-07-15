@@ -1,0 +1,28 @@
+.status {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.item {
+    padding: 0 10px;
+    display: inline-flex;
+    gap: 10px;
+    border: 1px solid black;
+    align-items: center;
+    background-color: #eee;
+    border-radius: 25px;
+}
+
+.true {
+    background-color: green;
+}
+
+.false {
+    background-color: red;
+}
+
+.name {
+    font-weight: bold;
+}
